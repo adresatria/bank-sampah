@@ -93,7 +93,7 @@
                             Rp. {{ number_format($catatan->total_harga) }}
                         </td>
                         <td>
-                            {{ $catatan->user->name }}
+                            {{ $catatan->user['name'] }}
                         </td>
                         <td class="text-center" style="font-size: 1rem;">
                             <a href="#" data-target="#modalInfo{{ $catatan->id }}" data-toggle="modal" class="mr-2">
@@ -123,12 +123,12 @@
                                                     <li class="font-weight-bold list-group-item non-bordered">
                                                         <span>Nasabah</span>
                                                         <br>
-                                                        <span class="text-muted">{{ $catatan->user->name }}</span>
+                                                        <span class="text-muted">{{ $catatan->user['name'] }}</span>
                                                     </li>
                                                     <li class="font-weight-bold list-group-item non-bordered">
                                                         <span>Telpon</span>
                                                         <br>
-                                                        <span class="text-muted">{{ $catatan->user->telpon }}</span>
+                                                        <span class="text-muted">{{ $catatan->user['telpon'] }}</span>
                                                     </li>
                                                     <li class="font-weight-bold list-group-item non-bordered">
                                                         <span>Keterangan</span>

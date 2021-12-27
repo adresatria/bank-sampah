@@ -46,7 +46,7 @@ class LoginController extends Controller
 
     protected function attemptLogin(Request $request)
     {
-        $request->merge(['role' => [4, 5]]);
+        $request->merge(['role' => [2, 3, 4, 5]]);
 
         return $this->guard()->attempt(
             $this->credentials($request), $request->filled('remember')
