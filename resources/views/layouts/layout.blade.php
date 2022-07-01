@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>Bank Sampah</title>
+    <title>Sedekah Sampah</title>
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <!-- Icons -->
@@ -21,13 +21,14 @@
 </head>
 
 <body>
+
     <!-- Sidenav -->
     <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
         <div class="scrollbar-inner">
             <!-- Brand -->
             <div class="sidenav-header  align-items-center">
                 <a class="navbar-brand" href="{{ route('home') }}">
-                    <img src="{{ asset('img/brand/blue.png') }}" class="navbar-brand-img"
+                    <img src="{{ asset('img/brand/sedekahsampah.png') }}" class="navbar-brand-img"
                         alt="...">
                 </a>
             </div>
